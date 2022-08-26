@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = ["cowsay"]
+dependencies = ["pandas", "typer[all]", "python-decouple", "jsonlines", "tardis_client", "tardis_dev"]
 dynamic = ["version"]
 
 [project.urls]
